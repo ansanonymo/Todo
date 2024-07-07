@@ -1,0 +1,64 @@
+.dark {
+  background-color: #010101;
+  color: aliceblue;
+}
+
+.light {
+  background-color: aliceblue;
+  color: #010101;
+}
+
+.light form button {
+  border: 1px solid #0088ff;
+  color: #0088ff;
+  background-color: transparent;
+}
+
+.light form button:hover {
+  border: 1px solid transparent;
+  background-color: #0088ff;
+  color: aliceblue;
+}
+
+.light form input {
+  border: 1px solid #0088ff;
+}
+
+.slider {
+  background-color: #0088ff;
+}
+
+.solve,
+.task {
+  background-color: #0088ff;
+}
+
+.light .navigation {
+  border-bottom: 3px solid aliceblue;
+}
+
+.dark .navigation {
+  border-bottom: 3px solid #010101;
+}
+
+.light .navigation button {
+  color: #010101;
+}
+
+.dark .navigation button {
+  color: aliceblue;
+}
+
+.light .navigation .active,
+.dark .navigation .active {
+  background-color: #0088ff;
+  color: aliceblue;
+}
+
+ul li {
+  border-left: 1px solid aliceblue;
+}
+
+.slider {
+  color: aliceblue;
+}

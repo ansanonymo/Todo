@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "comic neue";
+  transition: all 0.3s;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer,
+input:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}

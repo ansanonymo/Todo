@@ -1,0 +1,86 @@
+.container {
+  margin: 40px auto;
+  width: 800px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+}
+
+.navigation button {
+  width: 100%;
+  font-size: 2.1rem;
+  border: 0px;
+  padding: 4px 0px;
+  background: transparent;
+}
+
+.slider {
+  position: relative;
+}
+
+.solve {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.solve,
+.task {
+  width: 100%;
+  padding: 30px 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+ul li {
+  font-size: 1.8rem;
+  padding-left: 8px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul li button {
+  font-size: 1.8rem;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.delete-btn {
+  color: #ff0000;
+}
+
+.done-btn {
+  color: #00ffaa;
+}
